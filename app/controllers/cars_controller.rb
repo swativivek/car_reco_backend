@@ -1,5 +1,5 @@
-class Api::CarsController < ApplicationController
-    def index
+class CarsController < ApplicationController
+  def index
       user = User.find(params[:user_id])
       return render json: { error: "User not found" }, status: :not_found unless user
   

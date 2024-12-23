@@ -40,4 +40,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'will_paginate', '~> 4.0'
+gem 'wdm', '>= 0.1.0', platforms: [:mingw, :mswin, :x64_mingw]
+gem 'dotenv-rails', groups: [:development, :test]
+
+
 
